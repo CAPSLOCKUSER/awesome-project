@@ -13,6 +13,18 @@
 
 @implementation AppDelegate
 
+- (UIWindow *)unityWindow {
+  return UnityGetMainWinfow();
+}
+
+- (void)showUnityWindow {
+  
+}
+
+- (void)hideUnityWindow {
+  
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   NSURL *jsCodeLocation;

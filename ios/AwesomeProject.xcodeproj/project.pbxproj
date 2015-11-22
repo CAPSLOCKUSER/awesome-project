@@ -46,7 +46,6 @@
 		646D24611C0210F90073CF64 /* RegisterMonoModules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 646D245A1C0210F90073CF64 /* RegisterMonoModules.cpp */; };
 		64880A461C0213E60069D209 /* CrashReporter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6488FA4A1C0213A50069D209 /* CrashReporter.mm */; };
 		64880A471C0213E60069D209 /* iPhone_Sensors.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6488FA4C1C0213A50069D209 /* iPhone_Sensors.mm */; };
-		64880A481C0213E60069D209 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6488FA4D1C0213A50069D209 /* main.mm */; };
 		64880A491C0213E60069D209 /* Bulk_Generics_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6488FA4F1C0213A50069D209 /* Bulk_Generics_0.cpp */; };
 		64880A4A1C0213E60069D209 /* Bulk_Generics_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6488FA501C0213A50069D209 /* Bulk_Generics_1.cpp */; };
 		64880A4B1C0213E60069D209 /* Bulk_Generics_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6488FA511C0213A50069D209 /* Bulk_Generics_2.cpp */; };
@@ -136,7 +135,6 @@
 		64880A9F1C0213E70069D209 /* UnityAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64880A441C0213E60069D209 /* UnityAppController.mm */; };
 		64A07DE41C021550005FDED1 /* CrashReporter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64A06DE81C02150B005FDED1 /* CrashReporter.mm */; };
 		64A07DE51C021550005FDED1 /* iPhone_Sensors.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64A06DEA1C02150B005FDED1 /* iPhone_Sensors.mm */; };
-		64A07DE61C021550005FDED1 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64A06DEB1C02150B005FDED1 /* main.mm */; };
 		64A07DE71C021550005FDED1 /* Bulk_Generics_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64A06DED1C02150B005FDED1 /* Bulk_Generics_0.cpp */; };
 		64A07DE81C021550005FDED1 /* Bulk_Generics_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64A06DEE1C02150B005FDED1 /* Bulk_Generics_1.cpp */; };
 		64A07DE91C021550005FDED1 /* Bulk_Generics_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64A06DEF1C02150B005FDED1 /* Bulk_Generics_2.cpp */; };
@@ -9544,7 +9542,6 @@
 				64880A791C0213E60069D209 /* Il2CppMetadataUsage.cpp in Sources */,
 				64A07DF11C021550005FDED1 /* Bulk_mscorlib_1.cpp in Sources */,
 				64880A4D1C0213E60069D209 /* Bulk_Generics_4.cpp in Sources */,
-				64A07DE61C021550005FDED1 /* main.mm in Sources */,
 				64A07E2C1C021550005FDED1 /* CMVideoSampling.mm in Sources */,
 				64880A711C0213E60069D209 /* Il2CppGenericClassTable.cpp in Sources */,
 				64A07DEB1C021550005FDED1 /* Bulk_Generics_4.cpp in Sources */,
@@ -9611,7 +9608,6 @@
 				64A07DEA1C021550005FDED1 /* Bulk_Generics_3.cpp in Sources */,
 				64A07DF81C021550005FDED1 /* Bulk_System.Core_0.cpp in Sources */,
 				64A07E151C021550005FDED1 /* Il2CppMarshalingFunctionsTable.cpp in Sources */,
-				64880A481C0213E60069D209 /* main.mm in Sources */,
 				64A07DED1C021550005FDED1 /* Bulk_Generics_6.cpp in Sources */,
 				64880A771C0213E60069D209 /* Il2CppMarshalingFunctionsTable.cpp in Sources */,
 				64A07E351C021550005FDED1 /* MPVideoPlayer.mm in Sources */,
