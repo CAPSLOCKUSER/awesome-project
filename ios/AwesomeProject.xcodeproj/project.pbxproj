@@ -19,7 +19,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13B07FC11A68108700A75B9A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.mm */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		644D69331C02320500BDC48B /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 644D69321C02320500BDC48B /* Data */; };
 		644D69351C02325500BDC48B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644D69341C02325500BDC48B /* CoreText.framework */; };
@@ -325,7 +325,7 @@
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeProject/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeProject/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject/main.m; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = AwesomeProject/main.mm; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		644D69321C02320500BDC48B /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Data; path = "../../../unity3d/mobile-app-test/Build/ios/Data"; sourceTree = "<group>"; };
 		644D69341C02325500BDC48B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -4688,6 +4688,7 @@
 		13B07FAE1A68108700A75B9A /* AwesomeProject */ = {
 			isa = PBXGroup;
 			children = (
+				644D69591C02383D00BDC48B /* Frameworks */,
 				646D22DF1C0210880073CF64 /* Vendor */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -4695,7 +4696,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB71A68108700A75B9A /* main.mm */,
 				644D69581C02365B00BDC48B /* PrefixHeader.pch */,
 			);
 			name = AwesomeProject;
@@ -4707,6 +4708,31 @@
 				146834041AC3E56700842450 /* libReact.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		644D69591C02383D00BDC48B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644D69561C02331200BDC48B /* libiconv.2.tbd */,
+				644D69541C02330100BDC48B /* UIKit.framework */,
+				644D69521C0232FC00BDC48B /* SystemConfiguration.framework */,
+				644D69501C0232EE00BDC48B /* QuartzCore.framework */,
+				644D694E1C0232DF00BDC48B /* OpenGLES.framework */,
+				644D694C1C0232D500BDC48B /* OpenAL.framework */,
+				644D694A1C0232BD00BDC48B /* MediaPlayer.framework */,
+				644D69481C0232AF00BDC48B /* iAd.framework */,
+				644D69461C0232A600BDC48B /* Foundation.framework */,
+				644D69441C0232A000BDC48B /* CoreVideo.framework */,
+				644D69421C02329700BDC48B /* CoreMotion.framework */,
+				644D69401C02329200BDC48B /* CoreMedia.framework */,
+				644D693E1C02328D00BDC48B /* CoreLocation.framework */,
+				644D693C1C02328700BDC48B /* CoreGraphics.framework */,
+				644D693A1C02328100BDC48B /* CFNetwork.framework */,
+				644D69381C02327400BDC48B /* AVFoundation.framework */,
+				644D69361C02326500BDC48B /* AudioToolbox.framework */,
+				644D69341C02325500BDC48B /* CoreText.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		646D22DF1C0210880073CF64 /* Vendor */ = {
@@ -9226,24 +9252,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				644D69561C02331200BDC48B /* libiconv.2.tbd */,
-				644D69541C02330100BDC48B /* UIKit.framework */,
-				644D69521C0232FC00BDC48B /* SystemConfiguration.framework */,
-				644D69501C0232EE00BDC48B /* QuartzCore.framework */,
-				644D694E1C0232DF00BDC48B /* OpenGLES.framework */,
-				644D694C1C0232D500BDC48B /* OpenAL.framework */,
-				644D694A1C0232BD00BDC48B /* MediaPlayer.framework */,
-				644D69481C0232AF00BDC48B /* iAd.framework */,
-				644D69461C0232A600BDC48B /* Foundation.framework */,
-				644D69441C0232A000BDC48B /* CoreVideo.framework */,
-				644D69421C02329700BDC48B /* CoreMotion.framework */,
-				644D69401C02329200BDC48B /* CoreMedia.framework */,
-				644D693E1C02328D00BDC48B /* CoreLocation.framework */,
-				644D693C1C02328700BDC48B /* CoreGraphics.framework */,
-				644D693A1C02328100BDC48B /* CFNetwork.framework */,
-				644D69381C02327400BDC48B /* AVFoundation.framework */,
-				644D69361C02326500BDC48B /* AudioToolbox.framework */,
-				644D69341C02325500BDC48B /* CoreText.framework */,
 				13B07FAE1A68108700A75B9A /* AwesomeProject */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* AwesomeProjectTests */,
@@ -9651,7 +9659,7 @@
 				64A07E2F1C021550005FDED1 /* DisplayManager.mm in Sources */,
 				64A07E291C021550005FDED1 /* UnityViewControllerBase.mm in Sources */,
 				64880A811C0213E70069D209 /* RenderPluginDelegate.mm in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.mm in Sources */,
 				64A07E0B1C021550005FDED1 /* Il2CppAttributes.cpp in Sources */,
 				64A07DFE1C021550005FDED1 /* Bulk_UnityEngine_1.cpp in Sources */,
 				64880A921C0213E70069D209 /* EAGLContextHelper.mm in Sources */,
