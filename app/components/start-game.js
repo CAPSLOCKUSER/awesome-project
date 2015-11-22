@@ -3,11 +3,11 @@ import React, {
   TouchableHighlight,
   View,
   Text,
-  StyleSheet
+  StyleSheet,
+  NativeModules
 } from 'react-native';
 
-// TODO: es6
-var UnityBridge = require('react-native').NativeModules.UnityBridge;
+const UnityBridge = NativeModules.UnityBridge;
 
 const styles = StyleSheet.create({
   container: {
