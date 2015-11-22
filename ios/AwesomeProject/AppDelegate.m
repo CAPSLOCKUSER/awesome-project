@@ -27,6 +27,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  /* Unity3D */
+  self.unityController = [[UnityAppController alloc] init];
+  [self.unityController application:application didFinishLaunchingWithOptions: launchOptions]; 
+  
+  /* React Native */
+  
   NSURL *jsCodeLocation;
 
   /**
