@@ -18,11 +18,11 @@
 }
 
 - (void)showUnityWindow {
-  
+  [self.unityWindow makeKeyAndVisible];
 }
 
 - (void)hideUnityWindow {
-  
+  [self.window makeKeyAndVisible];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

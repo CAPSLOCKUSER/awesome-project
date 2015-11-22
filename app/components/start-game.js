@@ -6,6 +6,9 @@ import React, {
   StyleSheet
 } from 'react-native';
 
+// TODO: es6
+var UnityBridge = require('react-native').NativeModules.UnityBridge;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -71,14 +74,14 @@ export default class StartGame extends Component {
   }
 
   buttonClicked() {
-    console.log('button clicked');
+    console.log('----> button clicked');
+    UnityBridge.showUnityWindow();
   }
 
   render() {
     return (
       <View style={styles.container}
-          onPress={this.buttonClicked.bind(this)}
-          onStartShouldSetResponderCapture={this.onStartShouldSetResponderCaptureHandler}
+          /*onStartShouldSetResponderCapture={this.onStartShouldSetResponderCaptureHandler}
           onStartShouldSetResponder={this.onStartShouldSetResponderHandler}
           onMoveShouldSetResponder={this.onMoveShouldSetResponderHandler}
           onResponderGrant={this.onResponderGrantHandler}
@@ -86,13 +89,14 @@ export default class StartGame extends Component {
           onResponderMove={this.onResponderMoveHandler}
           onResponderRelease={this.onResponderReleaseHandler}
           onResponderTerminationRequest={this.onResponderTerminationRequestHandler}
-          onResponderTerminate={this.onResponderTerminateHandler}
+          onResponderTerminate={this.onResponderTerminateHandler}*/
       >
         <Text style={styles.welcome}>
           Gravity Master
         </Text>
         <TouchableHighlight
           style={styles.button}
+          onPress={this.buttonClicked.bind(this)}
         >
           <Text>Play</Text>
         </TouchableHighlight>

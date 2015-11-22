@@ -40,6 +40,7 @@
 		644D69531C0232FC00BDC48B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644D69521C0232FC00BDC48B /* SystemConfiguration.framework */; };
 		644D69551C02330100BDC48B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644D69541C02330100BDC48B /* UIKit.framework */; };
 		644D69571C02331200BDC48B /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 644D69561C02331200BDC48B /* libiconv.2.tbd */; };
+		644D695C1C025A7000BDC48B /* UnityBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 644D695B1C025A7000BDC48B /* UnityBridge.m */; };
 		646D245C1C0210F90073CF64 /* Il2CppOptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 646D22E21C0210F90073CF64 /* Il2CppOptions.cpp */; };
 		646D245F1C0210F90073CF64 /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 646D24571C0210F90073CF64 /* libiPhone-lib.a */; };
 		646D24601C0210F90073CF64 /* RegisterFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 646D24581C0210F90073CF64 /* RegisterFeatures.cpp */; };
@@ -256,6 +257,8 @@
 		644D69541C02330100BDC48B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		644D69561C02331200BDC48B /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
 		644D69581C02365B00BDC48B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		644D695A1C02574B00BDC48B /* UnityBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityBridge.h; sourceTree = "<group>"; };
+		644D695B1C025A7000BDC48B /* UnityBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnityBridge.m; sourceTree = "<group>"; };
 		646D22E21C0210F90073CF64 /* Il2CppOptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Il2CppOptions.cpp; sourceTree = "<group>"; };
 		646D24571C0210F90073CF64 /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libiPhone-lib.a"; sourceTree = "<group>"; };
 		646D24581C0210F90073CF64 /* RegisterFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegisterFeatures.cpp; sourceTree = "<group>"; };
@@ -528,6 +531,8 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.mm */,
 				644D69581C02365B00BDC48B /* PrefixHeader.pch */,
+				644D695A1C02574B00BDC48B /* UnityBridge.h */,
+				644D695B1C025A7000BDC48B /* UnityBridge.m */,
 			);
 			name = AwesomeProject;
 			sourceTree = "<group>";
@@ -1230,6 +1235,7 @@
 				64880A9A1C0213E70069D209 /* VideoPlayer.mm in Sources */,
 				64880A4E1C0213E60069D209 /* Bulk_Generics_5.cpp in Sources */,
 				64880A881C0213E70069D209 /* SplashScreen.mm in Sources */,
+				644D695C1C025A7000BDC48B /* UnityBridge.m in Sources */,
 				64880A6D1C0213E60069D209 /* Il2CppAttributes.cpp in Sources */,
 				64880A971C0213E70069D209 /* MPVideoPlayer.mm in Sources */,
 				64880A511C0213E60069D209 /* Bulk_Mono.Security_1.cpp in Sources */,
