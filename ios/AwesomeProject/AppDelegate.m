@@ -72,4 +72,23 @@
   return YES;
 }
 
+- (void)applicationWillResignActive:(UIApplication *)application {
+  [self.unityController applicationWillResignActive:application];
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+  [self.unityController applicationDidEnterBackground:application];
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+  [self.unityController applicationWillEnterForeground:application];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+  [self.unityController applicationDidBecomeActive:application];
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+  [self.unityController applicationWillTerminate:application];
+}
 @end
