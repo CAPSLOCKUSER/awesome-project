@@ -14,7 +14,7 @@
 @implementation AppDelegate
 
 - (UIWindow *)unityWindow {
-  return UnityGetMainWinfow();
+  return UnityGetMainWindow();
 }
 
 - (void)showUnityWindow {
