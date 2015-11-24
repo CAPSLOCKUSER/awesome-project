@@ -1,5 +1,4 @@
 #import "UnityBridge.h"
-#import "AppDelegate.h"
 
 @implementation UnityBridge
 
