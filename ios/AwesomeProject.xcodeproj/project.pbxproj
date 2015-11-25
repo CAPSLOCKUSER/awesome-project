@@ -1357,7 +1357,7 @@
 				PROVISIONING_PROFILE = "";
 				UNITY_RUNTIME_VERSION = 5.2.2f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				VALID_ARCHS = arm64;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -1405,7 +1405,7 @@
 				PROVISIONING_PROFILE = "";
 				UNITY_RUNTIME_VERSION = 5.2.2f1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				VALID_ARCHS = arm64;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
